@@ -67,3 +67,13 @@ processed = processArg(7);
 
 Here what is important to understand is in JavaScript everything is a value.
 So that why we can assigned the value of a function into a variables.
+
+// Setup
+var processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
+processed = processArg(7);
